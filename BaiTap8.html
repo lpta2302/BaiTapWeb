@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Đổi màu nền của dòng tiêu đề đầu tiên */
+        .header-row {
+            background-color: lightblue; /* Thay đổi màu nền tại đây */
+        }
+
+        .header-row-table-2{
+            background-color: lightblue;
+            padding: 10px 30px;
+            color: blue;
+        }
+        .sub-table{
+            margin: 0 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr class="header-row">
+            <th colspan="2">Bang gia san pham</th>
+        </tr>
+        <tr>
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td>Noi san xuat</td>
+                        <td>Vietnam</td>
+                    </tr>
+                    <tr>
+                        <td>Gia tien</td>
+                        <td>300.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Thoi gian bao hanh</td>
+                        <td>6 thang</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img src="./autumn.jpg" alt="product-img" width="200px">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <table>
+        <tr class="header-row">
+            <th class="header-row-table-2" colspan="2">Mạng nghệ thuật & giải trí</th>
+        </tr>
+        <tr>
+            <td>Phim</td>
+            <td>Ngày chiếu</td>
+        </tr>
+        <tr>
+            <td>Sherlock Holmes</td>
+            <td>Thứ hai</td>
+        </tr>
+        <tr>
+            <td>Lovejoy</td>
+            <td>Thứ hai</td>
+        </tr>
+    </table>
+</body>
+
+</html>
